@@ -24,11 +24,12 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 4)),
     exercises: [
       {
-        type: 'climbing',
+        type: 'resistance',
         name: 'climbing',
         duration: 180,
         weight: 260,
         reps: 6,
+        sets: 1
       },
     ],
   },
@@ -36,11 +37,12 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 3)),
     exercises: [
       {
-        type: 'climbing',
+        type: 'resistance',
         name: 'climbing',
         duration: 150,
         weight: 262,
         reps: 6,
+        sets: 1
       },
     ],
   },
@@ -59,11 +61,12 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 1)),
     exercises: [
       {
-        type: 'climbing',
+        type: 'resistance',
         name: 'climbing',
         duration: 180,
         weight: 265,
         reps: 7,
+        sets: 1
       },
     ],
   },
